@@ -1,0 +1,37 @@
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+import com.qaptiol.base.Baseclass;
+
+public class Text extends Baseclass{
+//	WebDriver driver;
+//	public Text(WebDriver driver)
+//	
+//	{
+//		this.driver=driver;
+//		
+//	}
+	@Test
+	public void text5() {
+		WebDriver driver=new ChromeDriver() ;
+		driver.get("https://demoqa.com");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.findElement(By.xpath("//div[@class='avatar mx-auto white']")).click();
+		driver.findElement(By.id("item-0")).click();
+	
+		driver.findElement(By.xpath("//input[@class=' mr-sm-2 form-control']")).sendKeys("Mounica");
+			
+			
+			
+			
+		}
+	
+		
+		
+	}
+
+

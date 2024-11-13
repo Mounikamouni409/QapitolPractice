@@ -1,0 +1,9 @@
+package com.qapitol.pages;
+
+import com.qapitol.utilities.Utilities;
+
+public class SearchPage extends Utilities {
+	
+	
+
+}

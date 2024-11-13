@@ -1,0 +1,7 @@
+package com.qapitol.pages;
+
+import com.qapitol.utilities.Utilities;
+
+public class Login extends Utilities {
+
+}

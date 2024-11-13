@@ -1,0 +1,13 @@
+package com.qapitol.Testcases;
+
+import org.openqa.selenium.WebDriver;
+
+public class AlertsFramesWindows extends Utilities {
+	
+	WebDriver driver;
+	
+	public AlertsFramesWindows(WebDriver driver) {
+		this.driver = driver;
+	}
+
+}

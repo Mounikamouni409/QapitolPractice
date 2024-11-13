@@ -1,0 +1,15 @@
+package com.qapitol.testcases;
+
+import org.testng.annotations.Test;
+
+import com.qapitol.base.Baseclass;
+
+public class SearchTest extends Baseclass{
+	
+	
+	@Test
+	public void login() {
+		
+	}
+
+}

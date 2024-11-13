@@ -1,0 +1,17 @@
+package com.qapitol.Testcases;
+
+import com.qapitol.pages.Forms;
+import com.qaptiol.base.Baseclass;
+
+public class FormsTest extends Baseclass{
+	
+	public void formTest() {
+		
+		Forms f = new Forms(driver);
+		f.formsPractice();
+		
+	}
+	
+	
+
+}

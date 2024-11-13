@@ -1,0 +1,61 @@
+package com.qapitol.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+
+import com.qapitol.utilities.Utilities;
+
+public class Forms extends Utilities {
+
+	WebDriver driver;
+
+	public Forms(WebDriver driver) {
+
+		this.driver = driver;
+
+	}
+
+	By click_forms = By.xpath("//h5[text()='Forms']");
+	By practice = By.xpath("//span[text()='Practice Form']");
+	By first = By.id("firstName");
+	By last = By.id("lastName");
+	By userEmail = By.id("userEmail");
+	By select_gender = By.xpath("//label[text()='Female']");
+	By user_number = By.id("userNumber");
+	By click_submit = By.id("submit");
+
+	public void formsPractice() {
+
+		javascriptByScroll(0, 200);
+		WebElement forms = driver.findElement(click_forms);
+		clickMethod(forms);
+
+		WebElement practice_forms = driver.findElement(practice);
+		clickMethod(practice_forms);
+
+		WebElement firstName = driver.findElement(first);
+		sendkeysMethod(firstName, "Mounika");
+
+		WebElement lastName = driver.findElement(last);
+		sendkeysMethod(lastName, "Patnam");
+
+		WebElement email = driver.findElement(userEmail);
+		sendkeysMethod(email, "mounika@gmail.com");
+
+		WebElement gender = driver.findElement(select_gender);
+		clickMethod(gender);
+
+		WebElement number = driver.findElement(user_number);
+		sendkeysMethod(number, "9982288217");
+
+		WebElement submit = driver.findElement(click_submit);
+		clickMethod(submit);
+
+		WebElement confirmation = driver.findElement(By.className("modal-title"));
+		Assert.assertEquals(confirmation.getText(), "Thanks for submitting the form", "Form submission failed");
+
+	}
+
+}

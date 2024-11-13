@@ -1,0 +1,26 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+import com.qaptiol.base.Baseclass;
+
+public class Text extends Baseclass{
+//	WebDriver driver;
+//	public Text(WebDriver driver)
+//	
+//	{
+//		this.driver=driver;
+//		
+//	}
+	public void text5() {
+		WebDriver driver=new ChromeDriver() {
+			driver.findElement(By.xpath(""));
+			
+			
+			
+		}
+	
+		
+		
+	}
+
+}

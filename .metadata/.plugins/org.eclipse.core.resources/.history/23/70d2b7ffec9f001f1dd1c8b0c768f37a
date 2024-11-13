@@ -1,0 +1,30 @@
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.qaptiol.base.Baseclass;
+
+public class Text extends Baseclass{
+//	WebDriver driver;
+//	public Text(WebDriver driver)
+//	
+//	{
+//		this.driver=driver;
+//		
+//	}
+	public void text5() {
+		WebDriver driver=new ChromeDriver() ;
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+			driver.findElement(By.xpath("//li[@id='item-0']/child::span[normalize-space()='Text Box']"));
+			
+			
+			
+		}
+	
+		
+		
+	}
+
+}

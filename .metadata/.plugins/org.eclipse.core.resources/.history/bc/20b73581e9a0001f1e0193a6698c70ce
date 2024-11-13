@@ -1,0 +1,14 @@
+package com.qapitol.Testcases;
+
+import com.qapitol.pages.AlertsFramesWindows;
+import com.qaptiol.base.Baseclass;
+
+public class AlertsTest extends Baseclass{
+	
+	
+	public void frames() {
+		AlertsFramesWindows a = new AlertsFramesWindows(driver);
+		a.frames();
+	}
+
+}

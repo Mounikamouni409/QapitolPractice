@@ -1,0 +1,21 @@
+package com.qapitol.pages;
+
+import org.openqa.selenium.WebDriver;
+
+import com.qapitol.utilities.Utilities;
+
+
+public class Elements extends Utilities {
+	
+	WebDriver driver;
+	
+	public Elements(WebDriver driver) {
+		this.driver = driver;
+	}
+	
+	
+	public void elements() {
+		
+	}
+
+}
