@@ -14,7 +14,7 @@ public class SearchTest extends Baseclass{
 		SearchPage s = new SearchPage(driver);
 		s.closePopupIfPresent();
 		s.searchForItem("vivo v27");
-		s.getProductTitles();
+		s.getProductTitles("vivo v27");
 	}
 
 }

@@ -32,7 +32,7 @@ public class SearchPage extends Utilities {
 	 WebElement closeLoginPopup;
 	 
 	 
-	 @FindBy(css = ".KzDlHZ")
+	 @FindBy(xpath = "//div[@class='KzDlHZ' and contains(text(),'vivo V27')]")
 	 List<WebElement> productTitles;
 	
 	 
@@ -49,25 +49,29 @@ public class SearchPage extends Utilities {
 	    }
 
 	    // Method to perform search
-	    public void searchForItem(String query) {
+	    public void searchForItem(String product) {
 	        searchBar.clear();
-	        sendkeysMethod(searchBar, query);
+	        sendkeysMethod(searchBar, product);
 	        clickMethod(searchButton);
 	       
 	    }
 	    
-	    public List<WebElement> getProductTitles() {
+	    public List<WebElement> getProductTitles(String product) {
 	    	
-	    	//String actualBrand = "vivo v27";
-	    	String expectedBrand = "vivo";
+	    /*	String actualText = "vivo v27";
+	    	String expectedText = "vivo v27";*/
 	    	
 	       
 	        for (WebElement title : productTitles) {
 	        	
 	        	System.out.println(title.getText());
-	            String productText = title.getText().toLowerCase();
-	            Assert.assertTrue(productText.contains(expectedBrand.toLowerCase()), 
-	                    "Product title does not contain the expected brand: " + title.getText());
+	            
+	        	 String productText = title.getText().toLowerCase();
+	             System.out.println("Product Title: " + productText);
+
+	             // Assert that each title contains the search term (case-insensitive)
+	             Assert.assertTrue(productText.contains(product.toLowerCase()), 
+	                 "Product title does not match the search term: " + title.getText());
 	        }
 
 	        return productTitles;

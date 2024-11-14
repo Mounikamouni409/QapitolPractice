@@ -10,46 +10,65 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 
 public class Baseclass {
-	
+
 	public static WebDriver driver;
-	
+
 	
 	@BeforeClass
-	public void openBrowser() throws IOException {
-		
-		FileReader file = new FileReader(System.getProperty("user.dir")+"\\src\\test\\resources\\TestData.properties");
+	@Parameters("browser")
+	public void openBrowser(String browser) throws IOException {
+
+		FileReader file = new FileReader(
+				System.getProperty("user.dir") + "\\src\\test\\resources\\TestData.properties");
 		Properties props = new Properties();
 		props.load(file);
-		
-		if ("chrome".equalsIgnoreCase(props.getProperty("browser"))) {
-            
-            driver = new ChromeDriver();
-        } 
-		else if ("firefox".equalsIgnoreCase(props.getProperty("browser"))) {
-            
-            driver = new FirefoxDriver();
-        } 
-		else if("edge".equalsIgnoreCase(props.getProperty("browser"))){
-			driver = new EdgeDriver();
+
+		/*
+		 * if ("chrome".equalsIgnoreCase(props.getProperty("browser"))) {
+		 * 
+		 * driver = new ChromeDriver(); } else if
+		 * ("firefox".equalsIgnoreCase(props.getProperty("browser"))) {
+		 * 
+		 * driver = new FirefoxDriver(); } else
+		 * if("edge".equalsIgnoreCase(props.getProperty("browser"))){ driver = new
+		 * EdgeDriver();
+		 * 
+		 * } else { throw new IllegalArgumentException("Unsupported browser: " +
+		 * props.getProperty("browser")); }
+		 */
+
+		if ("chrome".equalsIgnoreCase(browser)) {
+
+			driver = new ChromeDriver();
 			
-		}
+		} else if ("firefox".equalsIgnoreCase(browser)) {
+
+			driver = new FirefoxDriver();
+			
+		} else if ("edge".equalsIgnoreCase(browser)) {
+			
+			driver = new EdgeDriver();
+
+		} 
 		else {
-            throw new IllegalArgumentException("Unsupported browser: " + props.getProperty("browser"));
-        }
-		
-		
+			
+			throw new IllegalArgumentException("Unsupported browser: " + props.getProperty("browser"));
+		}
+
 		driver.get(props.getProperty("url"));
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
-	
-	/*@AfterClass
-	public void closeBrowser() {
-		driver.quit();
-	}*/
-	
-	
+
+	/*
+	 * @AfterClass 
+	 * public void closeBrowser() { 
+	 * 		driver.quit(); 
+	 * }
+	 */
 
 }
