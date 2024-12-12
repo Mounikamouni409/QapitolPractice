@@ -2,6 +2,7 @@ package com.qapitol.utilities;
 
 import java.time.Duration;
 import java.util.List;
+import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -43,7 +44,7 @@ public class Utilities extends Baseclass {
 
 	public void javascriptByScroll(int x, int y) {
 
-		JavascriptExecutor js = (JavascriptExecutor) driver;
+		JavascriptExecutor js = (JavascriptExecutor) BaseTest.getDriver();
 		js.executeScript("window.scrollBy(" + x + "," + y + ")");
 //		js.executeScript("window.scrollBy(arguments[0], arguments[1]);", x, y);
 	}
@@ -90,4 +91,15 @@ public class Utilities extends Baseclass {
 	           
 	        }
 		}
+		
+		 public String switchToNewWindow(WebDriver driver, String mainWindowHandle) {
+		        Set<String> allWindowHandles = driver.getWindowHandles();
+		        for (String handle : allWindowHandles) {
+		            if (!handle.equals(mainWindowHandle)) {
+		                driver.switchTo().window(handle);
+		                break;
+		            }
+		        }
+		        return driver.getWindowHandle();
+		    }
 }

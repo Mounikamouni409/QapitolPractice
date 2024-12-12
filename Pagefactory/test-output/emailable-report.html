@@ -9,17 +9,41 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Cross Browser suite</th></tr>
-<tr><td><a href="#t0">ChromeTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">15,079</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">EdgeTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">16,235</td><td></td><td></td></tr>
-<tr><td><a href="#t2">FirefoxTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">15,952</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">47,266</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">ChromeTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">20,220</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">EdgeTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">21,245</td><td></td><td></td></tr>
+<tr><td><a href="#t2">FirefoxTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">23,499</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num attn">3</th><th class="num">64,964</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Cross Browser suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ChromeTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.qapitol.testcases.SearchTest</td><td><a href="#m0">search</a></td><td rowspan="1">1731558477062</td><td rowspan="1">12255</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">EdgeTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.qapitol.testcases.SearchTest</td><td><a href="#m1">search</a></td><td rowspan="1">1731558493545</td><td rowspan="1">12042</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">FirefoxTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.qapitol.testcases.SearchTest</td><td><a href="#m2">search</a></td><td rowspan="1">1731558510085</td><td rowspan="1">11469</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Cross Browser suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ChromeTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qapitol.testcases.SearchTest</td><td><a href="#m0">search</a></td><td rowspan="1">1733919560884</td><td rowspan="1">12942</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">EdgeTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qapitol.testcases.SearchTest</td><td><a href="#m1">search</a></td><td rowspan="1">1733919560198</td><td rowspan="1">13463</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">FirefoxTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qapitol.testcases.SearchTest</td><td><a href="#m2">search</a></td><td rowspan="1">1733919563693</td><td rowspan="1">12642</td></tr></tbody>
 </table>
-<h2>ChromeTest</h2><h3 id="m0">com.qapitol.testcases.SearchTest#search</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>EdgeTest</h2><h3 id="m1">com.qapitol.testcases.SearchTest#search</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>FirefoxTest</h2><h3 id="m2">com.qapitol.testcases.SearchTest#search</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ChromeTest</h2><h3 id="m0">com.qapitol.testcases.SearchTest#search</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Product title does not match] but found [vivo v27 pro 5g (magic blue, 256 gb)]
+	at com.qapitol.pages.SearchPage.getProductTitles(SearchPage.java:73)
+	at com.qapitol.testcases.SearchTest.search(SearchTest.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>EdgeTest</h2><h3 id="m1">com.qapitol.testcases.SearchTest#search</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Product title does not match] but found [vivo v27 5g (noble black, 128 gb)]
+	at com.qapitol.pages.SearchPage.getProductTitles(SearchPage.java:73)
+	at com.qapitol.testcases.SearchTest.search(SearchTest.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>FirefoxTest</h2><h3 id="m2">com.qapitol.testcases.SearchTest#search</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Product title does not match] but found [vivo v27 5g (noble black, 128 gb)]
+	at com.qapitol.pages.SearchPage.getProductTitles(SearchPage.java:73)
+	at com.qapitol.testcases.SearchTest.search(SearchTest.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

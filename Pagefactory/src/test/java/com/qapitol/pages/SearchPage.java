@@ -12,7 +12,7 @@ import com.qapitol.utilities.Utilities;
 
 public class SearchPage extends Utilities {
 	
-	WebDriver driver;
+	public WebDriver driver;
 	
 	 public SearchPage(WebDriver driver) {
 	        this.driver = driver;
@@ -49,9 +49,10 @@ public class SearchPage extends Utilities {
 	    }
 
 	    // Method to perform search
-	    public void searchForItem(String product) {
+	    public void searchForItem(String searchProduct) {
+	    	
 	        searchBar.clear();
-	        sendkeysMethod(searchBar, product);
+	        sendkeysMethod(searchBar, searchProduct);
 	        clickMethod(searchButton);
 	       
 	    }
@@ -68,10 +69,12 @@ public class SearchPage extends Utilities {
 	            
 	        	 String productText = title.getText().toLowerCase();
 	             System.out.println("Product Title: " + productText);
+	             
+	             Assert.assertEquals(productText,"Product title does not match");
 
 	             // Assert that each title contains the search term (case-insensitive)
-	             Assert.assertTrue(productText.contains(product.toLowerCase()), 
-	                 "Product title does not match the search term: " + title.getText());
+	            /* Assert.assertTrue(productText.contains(product.toLowerCase()), 
+	                 "Product title does not match the search : " + title.getText());*/
 	        }
 
 	        return productTitles;

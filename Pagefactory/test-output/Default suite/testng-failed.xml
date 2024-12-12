@@ -5,6 +5,7 @@
     <classes>
       <class name="com.qapitol.testcases.SearchTest">
         <methods>
+          <include name="closeBrowser"/>
           <include name="search"/>
           <include name="openBrowser"/>
         </methods>
