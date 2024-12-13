@@ -2,6 +2,13 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Qapitol QA\eclipse-workspace\AppiumBrowser"/>
+			<item value="C:\Users\Qapitol QA\eclipse-workspace\Guru99\pom.xml"/>
+			<item value="C:\Users\Qapitol QA\eclipse-workspace\MyntraAppTesting"/>
+			<item value="C:\Users\Qapitol QA\eclipse-workspace\WorkshopSelenium"/>
+			<item value="C:\Users\Qapitol QA\eclipse-workspace\Calculator"/>
+			<item value="C:\Users\Qapitol QA\eclipse-workspace\Qapitol"/>
+			<item value="C:\Users\Qapitol QA\eclipse-workspace\Pagefactory\src\test\java\com\qapitol\pages\SearchPage.java"/>
 			<item value="C:\Users\Qapitol QA\eclipse-workspace\Demo"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,13 +33,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="qapitol.Qapitol"/>
 		</list>
 		<list key="groupId">
-			<item value="qapitol"/>
 		</list>
 		<list key="artifactId">
-			<item value="Qapitol"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -48,10 +52,15 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="AppiumBrowser"/>
+			<item value="guru99"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="OrangeHRM"/>
+			<item value="AppiumBrowser"/>
+			<item value="Guru99Demo"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

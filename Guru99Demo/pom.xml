@@ -79,4 +79,18 @@
   
   
   </dependencies>
+  
+  
+  <build>
+		<finalName>selenium-test</finalName>
+        <plugins>
+            <!-- Plugin to create a JAR -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.1.0</version>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>

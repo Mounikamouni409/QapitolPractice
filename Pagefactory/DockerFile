@@ -1,0 +1,4 @@
+FROM openjdk:8
+EXPOSE 8080
+ADD target/docker-testing.jar docker-testing.jar
+ENTRYPOINT ["java","-jar","/docker-testing.jar"]
