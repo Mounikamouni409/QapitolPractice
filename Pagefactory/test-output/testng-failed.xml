@@ -25,16 +25,4 @@
       </class> <!-- com.qapitol.testcases.SearchTest -->
     </classes>
   </test> <!-- EdgeTest(failed) -->
-  <test thread-count="5" parallel="tests" name="FirefoxTest(failed)">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="com.qapitol.testcases.SearchTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="search"/>
-          <include name="openBrowser"/>
-        </methods>
-      </class> <!-- com.qapitol.testcases.SearchTest -->
-    </classes>
-  </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [Cross Browser suite] -->

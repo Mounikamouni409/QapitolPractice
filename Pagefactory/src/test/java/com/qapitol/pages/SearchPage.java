@@ -1,11 +1,15 @@
 package com.qapitol.pages;
 
+
+import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import com.qapitol.utilities.Utilities;
@@ -38,13 +42,19 @@ public class SearchPage extends Utilities {
 	 
 	 public void closePopupIfPresent() {
 	        try {
+	        	
+	        	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+                wait.until(ExpectedConditions.elementToBeClickable(closeLoginPopup));
 	            if (closeLoginPopup.isDisplayed()) {
+	            	
+	            	
+
 	                closeLoginPopup.click();
 	            }
 	        } 
 	        catch (Exception e) {
 	            
-	        	e.printStackTrace();
+	        	System.out.println("Popup not present or could not be closed.");
 	        }
 	    }
 
@@ -54,27 +64,27 @@ public class SearchPage extends Utilities {
 	        searchBar.clear();
 	        sendkeysMethod(searchBar, searchProduct);
 	        clickMethod(searchButton);
+	        
+	        
 	       
 	    }
 	    
 	    public List<WebElement> getProductTitles(String product) {
 	    	
-	    /*	String actualText = "vivo v27";
-	    	String expectedText = "vivo v27";*/
-	    	
-	       
+	    	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	        wait.until(ExpectedConditions.visibilityOfAllElements(productTitles));
+	        
 	        for (WebElement title : productTitles) {
 	        	
 	        	System.out.println(title.getText());
 	            
 	        	 String productText = title.getText().toLowerCase();
 	             System.out.println("Product Title: " + productText);
+	            
+	             Assert.assertTrue(productText.contains(product.toLowerCase()), 
+	                     "Product title does not match the search term: " + title.getText());
 	             
-	             Assert.assertEquals(productText,"Product title does not match");
-
-	             // Assert that each title contains the search term (case-insensitive)
-	            /* Assert.assertTrue(productText.contains(product.toLowerCase()), 
-	                 "Product title does not match the search : " + title.getText());*/
+	             
 	        }
 
 	        return productTitles;

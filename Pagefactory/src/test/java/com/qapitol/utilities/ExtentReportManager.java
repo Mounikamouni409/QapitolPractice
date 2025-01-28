@@ -25,8 +25,9 @@ public class ExtentReportManager implements ITestListener {
 	public ExtentTest test; // creating testcase entries in the report and update the status of test methods
 
 	public String repName; // name of report
-
-	public void onStart​(ITestContext context) {
+	
+	@Override
+	public void onStart(ITestContext context) {
 		// when initiate the testcase or testcase started
 
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());// time stamp
@@ -74,6 +75,8 @@ public class ExtentReportManager implements ITestListener {
 		 * extent.setSystemInfo("OS", "Windows"); extent.setSystemInfo("Browser name ",
 		 * "Chrome");
 		 */
+		
+		
 
 	}
 
@@ -130,7 +133,9 @@ public class ExtentReportManager implements ITestListener {
 		 */
 	}
 
-	public void onFinish​(ITestContext context) {
+	
+	@Override
+	public void onFinish(ITestContext context) {
 
 		extent.flush();
 

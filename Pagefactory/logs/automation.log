@@ -1,83 +1,80 @@
-2024-12-11 14:33:06 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Qapitol QA\eclipse-workspace\Pagefactory\testng.xml] otherwise TestNG may fail or not work as expected.
-2024-12-11 14:33:16 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
-2024-12-11 14:33:26 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
-2024-12-11 14:33:28 INFO  SearchTest:29 - ***Validating the products for given search item ***
-2024-12-11 14:33:57 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
-2024-12-11 14:34:07 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
-2024-12-11 14:34:08 INFO  SearchTest:29 - ***Validating the products for given search item ***
-2024-12-11 16:58:05 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Qapitol QA\eclipse-workspace\Pagefactory\testng.xml] otherwise TestNG may fail or not work as expected.
-2024-12-11 16:58:14 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
-2024-12-11 16:58:18 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
-2024-12-11 16:58:18 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
-2024-12-11 16:58:24 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
-2024-12-11 16:58:28 INFO  SearchTest:29 - ***Validating the products for given search item ***
-2024-12-11 16:58:28 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
-2024-12-11 16:58:29 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
-2024-12-11 16:58:31 INFO  SearchTest:29 - ***Validating the products for given search item ***
-2024-12-11 16:58:32 INFO  SearchTest:29 - ***Validating the products for given search item ***
-2024-12-11 17:45:43 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Qapitol QA\eclipse-workspace\Pagefactory\testng.xml] otherwise TestNG may fail or not work as expected.
-2024-12-11 17:45:44 INFO  Utils:112 - [TestNG] Running:
+2024-12-18 15:23:14 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Qapitol QA\eclipse-workspace\Pagefactory\testng.xml] otherwise TestNG may fail or not work as expected.
+2024-12-18 15:23:14 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Qapitol QA\eclipse-workspace\Pagefactory\testng.xml
 
-2024-12-11 17:45:50 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
-2024-12-11 17:45:51 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
-2024-12-11 17:45:54 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
-2024-12-11 17:46:00 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
-2024-12-11 17:46:02 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
-2024-12-11 17:46:03 INFO  SearchTest:29 - ***Validating the products for given search item ***
-2024-12-11 17:46:04 INFO  SearchTest:29 - ***Validating the products for given search item ***
-2024-12-11 17:46:05 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
-2024-12-11 17:46:06 INFO  SearchTest:29 - ***Validating the products for given search item ***
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 15 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Qapitol QA\AppData\Local\Temp\testng-eclipse-764855480\testng-customsuite.xml
-
-2024-12-11 17:47:52 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
-2024-12-11 17:47:52 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@2289aca5: 82 ms
-2024-12-11 17:47:52 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@4204541c: 16 ms
-2024-12-11 17:47:52 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@3624da92: 18 ms
-2024-12-11 17:47:52 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@841e575: 11 ms
-2024-12-11 17:47:52 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6f80fafe: 10 ms
-2024-12-11 17:47:52 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@3af17be2: 0 ms
-2024-12-11 17:49:13 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Qapitol QA\eclipse-workspace\Pagefactory\testng.xml] otherwise TestNG may fail or not work as expected.
-2024-12-11 17:49:13 INFO  Utils:112 - [TestNG] Running:
+2024-12-18 15:23:39 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
+2024-12-18 15:23:48 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
+2024-12-18 15:23:49 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
+2024-12-18 15:23:51 INFO  SearchTest:29 - ***Validating the products for given search item ***
+2024-12-18 15:23:56 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
+2024-12-18 15:23:58 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
+2024-12-18 15:24:06 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
+2024-12-18 15:24:08 ERROR SearchTest:34 - Test Failed.....
+2024-12-18 15:24:08 INFO  SearchTest:37 - *** Search context of FlipKart website finished ***
+2024-12-18 15:24:11 INFO  SearchTest:29 - ***Validating the products for given search item ***
+2024-12-18 15:26:01 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Qapitol QA\eclipse-workspace\Pagefactory\testng.xml] otherwise TestNG may fail or not work as expected.
+2024-12-18 15:26:02 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Qapitol QA\eclipse-workspace\Pagefactory\testng.xml
 
-2024-12-11 17:49:20 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
-2024-12-11 17:49:20 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
-2024-12-11 17:49:23 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
-2024-12-11 17:49:30 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
-2024-12-11 17:49:31 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
-2024-12-11 17:49:33 INFO  SearchTest:29 - ***Validating the products for given search item ***
-2024-12-11 17:49:33 INFO  SearchTest:29 - ***Validating the products for given search item ***
-2024-12-11 17:49:34 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
-2024-12-11 17:49:36 INFO  SearchTest:29 - ***Validating the products for given search item ***
+2024-12-18 15:26:11 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
+2024-12-18 15:26:11 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
+2024-12-18 15:26:11 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
+2024-12-18 15:26:21 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
+2024-12-18 15:26:21 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
+2024-12-18 15:26:22 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
+2024-12-18 15:26:22 ERROR SearchTest:34 - Test Failed.....
+2024-12-18 15:26:22 INFO  SearchTest:37 - *** Search context of FlipKart website finished ***
+2024-12-18 15:26:26 INFO  SearchTest:29 - ***Validating the products for given search item ***
+2024-12-18 15:26:33 ERROR SearchTest:34 - Test Failed.....
+2024-12-18 15:26:33 INFO  SearchTest:37 - *** Search context of FlipKart website finished ***
+2024-12-18 15:47:38 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Qapitol QA\eclipse-workspace\Pagefactory\testng.xml"
+2024-12-18 15:47:38 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Qapitol QA\eclipse-workspace\Pagefactory\testng.xml] otherwise TestNG may fail or not work as expected.
+2024-12-18 15:47:38 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Qapitol QA\eclipse-workspace\Pagefactory\testng.xml
+
+2024-12-18 15:47:44 DEBUG SearchTest:20 - jegsbhsehfgshgj
+2024-12-18 15:47:44 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
+2024-12-18 15:47:45 DEBUG SearchTest:20 - jegsbhsehfgshgj
+2024-12-18 15:47:45 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
+2024-12-18 15:47:47 DEBUG SearchTest:20 - jegsbhsehfgshgj
+2024-12-18 15:47:47 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
+2024-12-18 15:47:55 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
+2024-12-18 15:47:55 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
+2024-12-18 15:47:57 INFO  SearchTest:29 - ***Validating the products for given search item ***
+2024-12-18 15:47:57 INFO  SearchTest:29 - ***Validating the products for given search item ***
+2024-12-18 15:47:58 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
+2024-12-18 15:48:00 INFO  SearchTest:29 - ***Validating the products for given search item ***
+2024-12-18 15:48:53 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Qapitol QA\eclipse-workspace\Pagefactory\testng.xml"
+2024-12-18 15:48:53 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Qapitol QA\eclipse-workspace\Pagefactory\testng.xml] otherwise TestNG may fail or not work as expected.
+2024-12-18 15:48:54 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Qapitol QA\eclipse-workspace\Pagefactory\testng.xml
+
+2024-12-18 15:48:59 DEBUG SearchTest:20 - jegsbhsehfgshgj
+2024-12-18 15:48:59 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
+2024-12-18 15:48:59 DEBUG SearchTest:20 - jegsbhsehfgshgj
+2024-12-18 15:48:59 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
+2024-12-18 15:49:02 DEBUG SearchTest:20 - jegsbhsehfgshgj
+2024-12-18 15:49:02 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
+2024-12-18 15:49:09 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
+2024-12-18 15:49:10 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
+2024-12-18 15:49:11 INFO  SearchTest:29 - ***Validating the products for given search item ***
+2024-12-18 15:49:11 INFO  SearchTest:29 - ***Validating the products for given search item ***
+2024-12-18 15:49:12 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
+2024-12-18 15:49:14 INFO  SearchTest:29 - ***Validating the products for given search item ***
+2024-12-18 15:52:11 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Qapitol QA\eclipse-workspace\Pagefactory\testng.xml"
+2024-12-18 15:52:11 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Qapitol QA\eclipse-workspace\Pagefactory\testng.xml] otherwise TestNG may fail or not work as expected.
+2024-12-18 15:52:11 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Qapitol QA\eclipse-workspace\Pagefactory\testng.xml
+
+2024-12-18 15:52:21 DEBUG SearchTest:20 - jegsbhsehfgshgj
+2024-12-18 15:52:21 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
+2024-12-18 15:52:21 DEBUG SearchTest:20 - jegsbhsehfgshgj
+2024-12-18 15:52:21 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
+2024-12-18 15:52:21 DEBUG SearchTest:20 - jegsbhsehfgshgj
+2024-12-18 15:52:21 INFO  SearchTest:22 - ***Search context of FlipKart website Started***
+2024-12-18 15:52:31 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
+2024-12-18 15:52:31 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
+2024-12-18 15:52:31 INFO  SearchTest:26 - ***Searching for Item(vivo v27) ***
+2024-12-18 15:52:33 INFO  SearchTest:29 - ***Validating the products for given search item ***
+2024-12-18 15:52:36 INFO  SearchTest:29 - ***Validating the products for given search item ***
+2024-12-18 15:52:36 INFO  SearchTest:29 - ***Validating the products for given search item ***

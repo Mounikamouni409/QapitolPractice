@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Qapitol QA\eclipse-workspace\Pagefactory"/>
+			<item value="C:\Users\Qapitol QA\eclipse-workspace"/>
 			<item value="C:\Users\Qapitol QA\eclipse-workspace\AppiumBrowser"/>
 			<item value="C:\Users\Qapitol QA\eclipse-workspace\Guru99\pom.xml"/>
 			<item value="C:\Users\Qapitol QA\eclipse-workspace\MyntraAppTesting"/>
@@ -52,15 +54,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="AppiumBrowser"/>
-			<item value="guru99"/>
+			<item value="bdd"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="OrangeHRM"/>
-			<item value="AppiumBrowser"/>
-			<item value="Guru99Demo"/>
+			<item value="BDDFramework"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

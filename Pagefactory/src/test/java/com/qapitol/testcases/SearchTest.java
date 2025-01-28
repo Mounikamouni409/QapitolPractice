@@ -1,13 +1,13 @@
 package com.qapitol.testcases;
 
-import org.testng.annotations.Listeners;
+
 import org.testng.annotations.Test;
 
 import com.qapitol.base.Baseclass;
 import com.qapitol.pages.SearchPage;
 import com.qapitol.utilities.BaseTest;
 
-//@Listeners(ExtentReportManager.class)
+
 
 public class SearchTest extends Baseclass {
 	
@@ -17,8 +17,7 @@ public class SearchTest extends Baseclass {
 
 		
 		SearchPage s = new SearchPage(BaseTest.getDriver());
-		logger.debug("jegsbhsehfgshgj");
-
+		
 		logger.info("***Search context of FlipKart website Started***");
 		try {
 			s.closePopupIfPresent();
@@ -36,5 +35,6 @@ public class SearchTest extends Baseclass {
 		
 		logger.info("*** Search context of FlipKart website finished ***");
 	}
+	
 
 }

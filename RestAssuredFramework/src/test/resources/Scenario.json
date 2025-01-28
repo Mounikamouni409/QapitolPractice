@@ -1,0 +1,42 @@
+[
+	{
+	"id":1,
+	"username":"user1",
+	"firstName":"vw f",
+	"lastName":"d sfvsd",
+	"email":"abc@gmail.com",
+	"password":"123",
+	"phone":"987654322",
+	"userStatus":1	
+	},
+{
+	"id":2,
+	"username":"user2",
+	"firstName":"vw f",
+	"lastName":"d sfvsd",
+	"email":"abc@gmail.com",
+	"password":"123",
+	"phone":"987654322",
+	"userStatus":1	
+},
+{
+	"id":3,
+	"username":"user3",
+	"firstName":"vw f",
+	"lastName":"d sfvsd",
+	"email":"abc@gmail.com",
+	"password":"123",
+	"phone":"987654322",
+	"userStatus":1	
+}
+,
+{
+	"id":4,
+	"username":"user4",
+	"firstName":"vw f",
+	"lastName":"d sfvsd",
+	"email":"abc@gmail.com",
+	"password":"123",
+	"phone":"987654322",
+	"userStatus":1	
+}]
